@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: dsr
+  datasource:
+    username:
+    password:
+    url: jdbc:postgresql://localhost:25433/dsr_practice_db
+  liquibase:
+    enabled: true
