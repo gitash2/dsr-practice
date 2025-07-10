@@ -1,0 +1,57 @@
+form {
+  background: $white;
+  padding: 2rem;
+  border-radius: $radius;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+
+  .form-control {
+    border-radius: $radius;
+    border: 1px solid $gray;
+    padding: 0.75rem;
+    font-size: 1rem;
+
+    &:focus {
+      border-color: $primary;
+      box-shadow: 0 0 0 0.2rem rgba($primary, 0.2);
+    }
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.75rem;
+    font-weight: 600;
+    background-color: $primary;
+    border: none;
+    border-radius: $radius;
+
+    &:hover {
+      background-color: $primary-dark;
+    }
+  }
+}
+
+.alert {
+  border-radius: $radius;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+
+  label {
+    margin: 0;
+    font-weight: 500;
+  }
+
+  input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  button {
+    margin-left: 1rem;
+  }
+}
