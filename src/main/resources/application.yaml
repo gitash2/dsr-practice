@@ -4,7 +4,7 @@ spring:
   datasource:
     username: me
     password: 1234
-    url: jdbc:postgresql://localhost:25434/dsr_practice_db
+    url: jdbc:postgresql://postgres:5432/dsr_practice_db
   liquibase:
     enabled: false
 jwt:
